@@ -32,10 +32,10 @@ INSERT INTO albums
 VALUES (1,'Rotten','2014-12-02')
 
 INSERT INTO albums 
-VALUES (2,'Badlands','2017-10-06')
+VALUES (2,'Badlands','2019-10-06')
 
 INSERT INTO albums 
-VALUES (3,'Tokyo Drift','2021-07-13')
+VALUES (3,'Tokyo Drift','2020-07-13')
 
 INSERT INTO albums 
 VALUES (4,'Sleepless','2022-01-17')
@@ -58,23 +58,23 @@ INSERT INTO tracks
 VALUES (4,'Scars', '00:01:38', 2)
 
 INSERT INTO tracks 
-VALUES (5,'Tokyo Drift (Remix)', '00:03:26', 3)
+VALUES (5,'Tokyo Drift (Remix)', '00:03:36', 3)
 
 INSERT INTO tracks 
 VALUES (6,'Getaway', '00:01:56', 4)
 
 INSERT INTO tracks 
-VALUES (7,'M.I.A', '00:02:14', 4)
+VALUES (7,'M.I.A', '00:04:14', 4)
 
 INSERT INTO tracks 
 VALUES (8,'my name is', '00:04:28', 5)
 
 -- Заполнение сборников
 INSERT INTO collections 
-VALUES (1,'Sad','2016-01-07')
+VALUES (1,'Sad','2018-01-07')
 
 INSERT INTO collections 
-VALUES (2,'The likes','2016-05-10')
+VALUES (2,'The likes','2019-05-10')
 
 INSERT INTO collections 
 VALUES (3,'Every day','2016-06-01')
