@@ -11,6 +11,9 @@ VALUES (3,'LongMan_V');
 INSERT INTO performers
 VALUES (4,'Lil Sleep');
 
+INSERT INTO performers
+VALUES (5,'Eminem');
+
 -- Заполнение жанров
 INSERT INTO genres 
 VALUES (1,'рэп')
@@ -37,6 +40,10 @@ VALUES (3,'Tokyo Drift','2021-07-13')
 INSERT INTO albums 
 VALUES (4,'Sleepless','2022-01-17')
 
+INSERT INTO albums 
+VALUES (5,'Curtain Call: The Hits','2005-12-06')
+
+
 -- Заполнение треков
 INSERT INTO tracks 
 VALUES (1,'HDMI', '00:02:19', 1)
@@ -58,6 +65,9 @@ VALUES (6,'Getaway', '00:01:56', 4)
 
 INSERT INTO tracks 
 VALUES (7,'M.I.A', '00:02:14', 4)
+
+INSERT INTO tracks 
+VALUES (8,'my name is', '00:04:28', 5)
 
 -- Заполнение сборников
 INSERT INTO collections 
@@ -85,6 +95,9 @@ VALUES (3,3)
 INSERT INTO albumsperformers 
 VALUES (4,4)
 
+INSERT INTO albumsperformers 
+VALUES (5,5)
+
 -- Заполнение связи между жанром и исполнителем
 INSERT INTO genresperformers 
 VALUES (1,1)
@@ -103,6 +116,12 @@ VALUES (1,4)
 
 INSERT INTO genresperformers 
 VALUES (2,4)
+
+INSERT INTO genresperformers 
+VALUES (1,5)
+
+INSERT INTO genresperformers 
+VALUES (2,5)
 
 -- Заполнение связи между треком и сборником
 INSERT INTO trackscollections 
@@ -124,6 +143,9 @@ INSERT INTO trackscollections
 VALUES (2,7)
 
 INSERT INTO trackscollections 
+VALUES (2,8)
+
+INSERT INTO trackscollections 
 VALUES (3,6)
 
 INSERT INTO trackscollections 
@@ -134,5 +156,4 @@ VALUES (4,3)
 
 INSERT INTO trackscollections 
 VALUES (4,6)
-
 
